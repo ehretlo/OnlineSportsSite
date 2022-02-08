@@ -111,3 +111,22 @@ div.activitestyle {
     padding-bottom: 40px;
 background-color: white;
 }
+
+div.premierecolonne {
+    display: flex;
+}
+
+div.premierecolonne img {
+    height: 250px;
+    display: flex;
+}
+
+div.box {
+    display: flex;
+}
+
+
+
+
+
+

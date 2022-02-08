@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 
 header {
     display: flex;
@@ -20,6 +23,16 @@ ul img {
     width: 29px;
     height: 29px;
     
+}
+
+ul li a {
+    color:black;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color:#515AD0;
+    text-decoration: underline;
 }
 
 h1 {
@@ -74,4 +87,27 @@ div.rechercher {
     padding: 200px;
     height: 200px;
     font-size: 40px;
+    padding-top: 150px;
+    padding-bottom: 250px
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.green {
+    color: lightgreen;
+}
+
+
+/*_________________________________*/
+
+div.activitestyle {
+    text-align: center;
+    height: 40px;
+    padding-top: 40px;
+    font-size: 50px;
+    font-family: 'Tommy';
+    padding-bottom: 40px;
+background-color: white;
 }

@@ -1,0 +1,44 @@
+
+header {
+    display: flex;
+    align-items: center;
+    
+}
+
+header img {
+    height: 110px;
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+    width: 600px;
+    justify-content: space-evenly;
+}
+
+
+nav ul li {
+    display: flex;
+    font-family: 'Tommy';
+}
+
+
+nav ul li:hover {
+    color: aqua;
+}
+
+@font-face {
+    font-family: 'Tommy';
+    src: url('../font/MADE\ TOMMY\ Medium_PERSONAL\ USE.otf');
+}
+
+
+/*_________________________________*/
+
+div.rechercher {
+    text-align: center;
+    font-family: 'Tommy';
+}

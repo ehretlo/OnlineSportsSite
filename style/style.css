@@ -88,7 +88,8 @@ div.rechercher {
     height: 200px;
     font-size: 40px;
     padding-top: 150px;
-    padding-bottom: 250px
+    padding-bottom: 250px;
+    box-shadow: black 0px 0px 40px 0px;
 }
 
 .underline {
@@ -97,6 +98,11 @@ div.rechercher {
 
 .green {
     color: lightgreen;
+}
+
+div.rechercher input{
+    border-radius: 20px 20px 20px 20px  ;
+    height: 25px;
 }
 
 
@@ -110,21 +116,46 @@ div.activitestyle {
     font-family: 'Tommy';
     padding-bottom: 40px;
 background-color: white;
+text-decoration: underline #FF3028;
 }
 
 div.premierecolonne {
     display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    
+    margin-left: 100px;
+
 }
 
 div.premierecolonne img {
     height: 250px;
     display: flex;
+	transition-property: transform;
+	transition-duration: 500ms;
+    border-radius: 5px 5px 5px 5px;
+    object-fit: cover;
+}
+
+div.premierecolonne img:hover {
+    transform: scale(1.15);
 }
 
 div.box {
     display: flex;
 }
 
+
+div.deuxiemecolonne {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-left: 100px;
+}
+
+div.deuxiemecolonne img {
+    width: 280px;
+}
 
 
 

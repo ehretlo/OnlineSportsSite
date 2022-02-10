@@ -184,11 +184,16 @@ div.canoe, div.foot, div.motto {
     padding-right: 20px;
 }
 
+div.enduro, div.Exhibition, div.Triathlon {
+
+    padding-right: 20px;
+}
+
 /*_____________________________________________*/
 
 div.afficher {
     text-align: center;
-    margin-top: 40px;
+    margin-top: 20px;
     font-family: 'Tommy';
 }
 

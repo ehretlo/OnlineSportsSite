@@ -147,7 +147,7 @@ div.premierecolonne img {
 }
 
 div.premierecolonne img:hover {
-    transform: scale(1.15);
+    transform: scale(1.05);
 }
 
 div.box {
@@ -200,4 +200,21 @@ div.afficher {
 div.afficher:hover {
     color: #515AD0;
     text-decoration:underline #515AD0;
+}
+
+/*___________________________________________*/
+
+footer {
+    display: flex;
+    bottom: -20;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #515AD0;
+    font-family: 'Tommy';
+    border-top: #FF3028;
+}
+
+footer ul li a:hover {
+    text-decoration: underline #FF3028;
+    color: black;
 }

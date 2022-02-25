@@ -1,3 +1,6 @@
+body {
+    margin-bottom: 0px;
+}
 html {
     scroll-behavior: smooth;
 }
@@ -212,6 +215,8 @@ footer {
     background-color: #515AD0;
     font-family: 'Tommy';
     border-top: #FF3028;
+    height: 100px;
+    vertical-align: middle;
 }
 
 footer ul li a:hover {

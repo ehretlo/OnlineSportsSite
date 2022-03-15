@@ -8,12 +8,16 @@
         display: block;
     }
 
-    div.rechercher {
+    div.premierecolonne {
+    }
+
+    div.crossfit, div.boxe, div.basketball {
        
     }
 
-    div.premierecolonne {
-      
-    }
+    div.finess, div.karate, div.muscu {
+        
 
+
+    }
 }

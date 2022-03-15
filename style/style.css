@@ -1,6 +1,13 @@
 body {
     margin-bottom: 0px;
+    background: url('../images/images/mur.jpg');
+    background-size:auto;
 }
+
+div.activitestyle {
+    background: url('../images/images/mur.jpg');
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -10,10 +17,20 @@ header {
     align-items: center;
     box-shadow: black 0px 5px 20px 0px;
     border-bottom: red solid 2px;
+    
+    background-color: white;
+
 }
 
-header img {
+header a img {
     height: 110px;
+    transition: none;
+    
+    
+}
+
+img:hover {
+    transition: none;
 }
 
 header input {
@@ -93,6 +110,9 @@ div.rechercher {
     padding-top: 150px;
     padding-bottom: 250px;
     box-shadow: black 0px 0px 40px 0px;
+    
+    padding-top: 300px;
+
 }
 
 .underline {
@@ -123,22 +143,17 @@ text-decoration: underline #FF3028;
 }
 
 div.premierecolonne {
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
     font-family: 'Tommy';
     margin: 0 auto;
-    
-    margin-left: 300px;
-    margin-right: 300px;
+    display:flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
     text-align: center;
-
-
+    height: 300px;
 }
 
 div.premierecolonne img {
     height: 250px;
-    display: flex;
 	transition-property: transform;
 	transition-duration: 500ms;
     border-radius: 5px 5px 5px 5px;
@@ -157,6 +172,10 @@ div.box {
     display: flex;
 }
 
+div.titre {
+   
+}
+
 
 div.deuxiemecolonne {
     display: flex;
@@ -173,23 +192,38 @@ div.deuxiemecolonne img {
 
 div.boxe, div.crossfit, div.basketball {
     padding-right: 20px;
+    width: 30%;
+    height: 300px;
+    margin: 10px;
 }
 
 div.finess, div.karate, div.muscu {
     padding-right: 20px;
+    width: 30%;
+    height: 300px;
+    margin: 10px;
 }
 
 div.running, div.yoga, div.natation {
     padding-right: 20px;
+    width: 30%;
+    height: 300px;
+    margin: 10px;
 }
 
 div.canoe, div.foot, div.motto {
     padding-right: 20px;
+    width: 30%;
+    height: 300px;
+    margin: 10px;
 }
 
 div.enduro, div.Exhibition, div.Triathlon {
 
     padding-right: 20px;
+    width: 30%;
+    height: 300px;
+    margin: 10px;
 }
 
 /*_____________________________________________*/
@@ -223,3 +257,25 @@ footer ul li a:hover {
     text-decoration: underline #FF3028;
     color: black;
 }
+
+
+/*______________________________________________*/
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* toute la hauteur */
+  ::-webkit-scrollbar-track {
+    background: #D2D7DD;
+  }
+  
+  /* maintient */
+  ::-webkit-scrollbar-thumb {
+    background: #FF3028;
+  }
+  
+  /* curseur du barre */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #A52520;
+  }

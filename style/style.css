@@ -144,38 +144,21 @@ text-decoration: underline #FF3028;
 
 div.premierecolonne {
     font-family: 'Tommy';
-    margin: 0 auto;
-    display:flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-    text-align: center;
-    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-div.premierecolonne img {
-    height: 250px;
-	transition-property: transform;
-	transition-duration: 500ms;
-    border-radius: 5px 5px 5px 5px;
+img {
+    width: 100%;
+    height: 80%;
     object-fit: cover;
-    width : 100%;
-    height : 80%;
-    object-fit : cover; 
-    border-radius : 20px;
+    border-radius: 20px;
 }
 
 div.premierecolonne img:hover {
     transform: scale(1.05);
 }
-
-div.box {
-    display: flex;
-}
-
-div.titre {
-   
-}
-
 
 div.deuxiemecolonne {
     display: flex;
@@ -191,39 +174,44 @@ div.deuxiemecolonne img {
 /*_____________ PADDING ____________*/
 
 div.boxe, div.crossfit, div.basketball {
-    padding-right: 20px;
+   
     width: 30%;
     height: 300px;
     margin: 10px;
+    
 }
 
 div.finess, div.karate, div.muscu {
-    padding-right: 20px;
+   
     width: 30%;
     height: 300px;
     margin: 10px;
 }
 
 div.running, div.yoga, div.natation {
-    padding-right: 20px;
+   
     width: 30%;
     height: 300px;
     margin: 10px;
 }
 
 div.canoe, div.foot, div.motto {
-    padding-right: 20px;
+
     width: 30%;
     height: 300px;
     margin: 10px;
 }
 
 div.enduro, div.Exhibition, div.Triathlon {
-
-    padding-right: 20px;
     width: 30%;
     height: 300px;
     margin: 10px;
+}
+
+div.enduro, div.Exhibition, div.Triathlon, div.canoe, div.foot, div.motto, div.running, div.yoga, div.natation, div.finess, div.karate, div.muscu {
+
+
+
 }
 
 /*_____________________________________________*/

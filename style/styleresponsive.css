@@ -8,16 +8,23 @@
         display: block;
     }
 
-    div.premierecolonne {
+    header a img {
+        height: 100px;
+    object-fit: contain;
+    transition: none;
+}
     }
 
-    div.crossfit, div.boxe, div.basketball {
-       
-    }
-
-    div.finess, div.karate, div.muscu {
-        
-
-
+/**@media screen and (max-width: 1200px)
+{
+    div.crossfit, div.boxe, div.basketball, div.finess, div.karate, div.muscu {
+        width : 45%;
     }
 }
+
+@media screen and (max-width: 700px)
+{
+    div.crossfit, div.boxe, div.basketball, div.finess, div.karate, div.muscu {
+        width : 90%;
+    }
+}**/

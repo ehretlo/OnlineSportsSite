@@ -53,6 +53,8 @@ ul li a {
 ul li a:hover {
     color:#515AD0;
     text-decoration: underline;
+    transition-duration: 150ms;
+    transition: 200ms;
 }
 
 h1 {
@@ -103,22 +105,31 @@ nav ul li:hover {
 div.rechercher {
     text-align: center;
     font-family: 'Tommy';
-    background-color: #515AD0;
+    background-image: url('../images/images/parc-bourran.jpg');
     padding: 200px;
     height: 200px;
     font-size: 40px;
     padding-top: 150px;
     padding-bottom: 250px;
     box-shadow: black 0px 0px 40px 0px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    
 
 }
 
 .underline {
     text-decoration: underline;
+    color: #A52520;
+    background-color: #D2D7DD;
+    border-radius: 10px;
 }
 
 .green {
-    color: lightgreen;
+    color: green;
+    background-color: #D2D7DD;
+    border-radius: 10px;
 }
 
 div.rechercher input{
@@ -156,7 +167,7 @@ img {
 }
 
 img:hover {
-    transform: scale(1.2);
+    transform: scale(1.02);
     transition: 500ms;
     transition-property: transform;
     transition-duration: 500ms;
@@ -194,21 +205,24 @@ div.boxe, div.crossfit, div.basketball {
     box-shadow: black 0px 5px 20px 0px;
 }
 
-div.boxe, div.crossfit, div.basketball:hover {
+div.boxe:hover, div.crossfit:hover, div.basketball:hover, div.finess:hover, div.karate:hover, div.muscu:hover{
     transform: scale(1.02);
     transition: 500ms;
     box-shadow: black 0px 5px 20px 0px;
-    background-color: azure;
+    background-color: #D2D7DD;
+    border-radius: 20px;
+
 }
 
 div.finess, div.karate, div.muscu {
     box-shadow: black 0px 5px 20px 0px;
     width: 30%;
-    height: 300px;
+    height: 320px;
     margin: 10px;
     transition-property: transform;
     transition-duration: 500ms;
     background-color: azure;
+    border-radius: 20px;
 }
 
 div.running, div.yoga, div.natation {
@@ -217,6 +231,17 @@ div.running, div.yoga, div.natation {
     height: 300px;
     margin: 10px;
     background-color: azure;
+    border-radius: 20px;
+    transition: 500ms;
+    transition-duration: 500ms;
+    transform: scale(1);
+}
+
+div.running:hover, div.yoga:hover, div.natation:hover {
+    transition: 500ms;
+    transition-duration: 500ms;
+    transform: scale(1.02);
+    background-color: #D2D7DD;
 }
 
 div.canoe, div.foot, div.motto {
@@ -225,6 +250,7 @@ div.canoe, div.foot, div.motto {
     height: 300px;
     margin: 10px;
     background-color: azure;
+    border-radius: 20px;
 }
 
 div.enduro, div.Exhibition, div.Triathlon {
@@ -233,12 +259,16 @@ div.enduro, div.Exhibition, div.Triathlon {
     margin: 10px;
     box-shadow: black 0px 5px 20px 0px;
     background-color: azure;
+    border-radius: 20px;
 }
 
-div.enduro, div.Exhibition, div.Triathlon, div.canoe, div.foot, div.motto, div.running, div.yoga, div.natation, div.finess, div.karate, div.muscu {
+div.titre {
+    font-size: 25px;
+}
 
-
-
+div.titre:hover {
+    color:#A52520;
+    transition: 150ms;
 }
 
 /*_____________________________________________*/
@@ -247,6 +277,7 @@ div.afficher {
     text-align: center;
     margin-top: 20px;
     font-family: 'Tommy';
+    font-size: 25px;
 }
 
 div.afficher:hover {
@@ -294,3 +325,4 @@ footer ul li a:hover {
   ::-webkit-scrollbar-thumb:hover {
     background: #A52520;
   }
+

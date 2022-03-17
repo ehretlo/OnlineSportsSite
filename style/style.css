@@ -110,8 +110,6 @@ div.rechercher {
     padding-top: 150px;
     padding-bottom: 250px;
     box-shadow: black 0px 0px 40px 0px;
-    
-    padding-top: 300px;
 
 }
 
@@ -147,6 +145,7 @@ div.premierecolonne {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    text-align: center;
 }
 
 img {
@@ -156,21 +155,31 @@ img {
     border-radius: 20px;
 }
 
+img:hover {
+    transform: scale(1.2);
+    transition: 500ms;
+    transition-property: transform;
+    transition-duration: 500ms;
+    
+}
+
 div.premierecolonne img:hover {
     transform: scale(1.05);
 }
 
 div.deuxiemecolonne {
+    font-family: 'Tommy';
     display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    margin-left: 100px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    
 }
 
-div.deuxiemecolonne img {
-    width: 280px;
-}
-
+div.deuxiemecolonne img:hover {
+        transform: scale(1.05);
+    }
+    
 /*_____________ PADDING ____________*/
 
 div.boxe, div.crossfit, div.basketball {
@@ -178,34 +187,52 @@ div.boxe, div.crossfit, div.basketball {
     width: 30%;
     height: 300px;
     margin: 10px;
-    
+    background-color: azure;
+    transition-property: transform;
+    transition-duration: 500ms;
+    border-radius: 20px;
+    box-shadow: black 0px 5px 20px 0px;
+}
+
+div.boxe, div.crossfit, div.basketball:hover {
+    transform: scale(1.02);
+    transition: 500ms;
+    box-shadow: black 0px 5px 20px 0px;
+    background-color: azure;
 }
 
 div.finess, div.karate, div.muscu {
-   
+    box-shadow: black 0px 5px 20px 0px;
     width: 30%;
     height: 300px;
     margin: 10px;
+    transition-property: transform;
+    transition-duration: 500ms;
+    background-color: azure;
 }
 
 div.running, div.yoga, div.natation {
-   
+    box-shadow: black 0px 5px 20px 0px;
     width: 30%;
     height: 300px;
     margin: 10px;
+    background-color: azure;
 }
 
 div.canoe, div.foot, div.motto {
-
+    box-shadow: black 0px 5px 20px 0px;
     width: 30%;
     height: 300px;
     margin: 10px;
+    background-color: azure;
 }
 
 div.enduro, div.Exhibition, div.Triathlon {
     width: 30%;
     height: 300px;
     margin: 10px;
+    box-shadow: black 0px 5px 20px 0px;
+    background-color: azure;
 }
 
 div.enduro, div.Exhibition, div.Triathlon, div.canoe, div.foot, div.motto, div.running, div.yoga, div.natation, div.finess, div.karate, div.muscu {

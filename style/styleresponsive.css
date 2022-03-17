@@ -6,14 +6,28 @@
 
     header {
         display: block;
+        font-size: 20px;
     }
 
     header a img {
         height: 100px;
     object-fit: contain;
     transition: none;
-}
     }
+    
+    div.premierecolonne {
+        font-size: xx-large;
+    text-align: center;
+    height: 800px;
+
+    }
+
+    div.deuxiemecolonne {
+        font-size: xx-large;
+        text-align: center;
+        height: 400px;
+    }
+}
 
 /**@media screen and (max-width: 1200px)
 {

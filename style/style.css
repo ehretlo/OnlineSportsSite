@@ -1,3 +1,8 @@
+html {
+    cursor: url('../cursor/cursor.cur'), auto;
+}
+
+
 body {
     margin-bottom: 0px;
     background: url('../images/images/mur.jpg');
@@ -17,9 +22,10 @@ header {
     align-items: center;
     box-shadow: black 0px 5px 20px 0px;
     border-bottom: red solid 2px;
-    
     background-color: white;
-
+    position: relative;
+    margin: inherit;
+    justify-content: center;
 }
 
 header a img {
@@ -36,6 +42,7 @@ img:hover {
 header input {
     display: flex;
     cursor: help;
+    margin: auto;
 }
 
 
@@ -55,6 +62,7 @@ ul li a:hover {
     text-decoration: underline;
     transition-duration: 150ms;
     transition: 200ms;
+    cursor: url('../cursor/cursor.cur'), auto;
 }
 
 h1 {
@@ -115,6 +123,7 @@ div.rechercher {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+    border-bottom: red solid 4px;
 }
 
 .underline {
@@ -260,6 +269,13 @@ div.enduro, div.Exhibition, div.Triathlon {
     border-radius: 20px;
 }
 
+div.enduro:hover, div.Exhibition:hover, div.Triathlon:hover, div.canoe:hover, div.motto:hover, div.foot:hover{
+    transition: 500ms;
+    transition-duration: 500ms;
+    transform: scale(1.02);
+    background-color: #D2D7DD;
+}
+
 div.titre {
     font-size: 25px;
 }
@@ -268,6 +284,9 @@ div.titre:hover {
     color:#A52520;
     transition: 150ms;
 }
+
+
+
 
 /*_____________________________________________*/
 
@@ -295,6 +314,7 @@ footer {
     border-top: #FF3028;
     height: 100px;
     vertical-align: middle;
+    margin-top: 50px;
 }
 
 footer ul li a:hover {
@@ -351,7 +371,7 @@ footer ul li a:hover {
     margin: 10% auto;
     padding: 5px 20px 13px 20px;
     border-radius: 10px;
-    background-color: #D2D7DD;
+    background-color: white;
   }
   .close {
     background: #606061;
@@ -378,4 +398,23 @@ footer ul li a:hover {
   h2 {
       text-align: center;
       text-decoration: underline #A52520;
+  }
+
+  p {
+      text-align: center;
+  }
+
+  div.questionnaire {
+      text-align: center;
+  }
+
+  h3 {
+      font-size: 12px;
+      text-align: center;
+      color: black;
+  }
+
+  h3:hover {
+      color: blue;
+      text-decoration: underline blue;
   }

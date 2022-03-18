@@ -2,11 +2,15 @@
     body {
         display: block;
         width: 1200px;
+        margin: auto;
+        WIDTH: fit-content;
     }
 
     header {
         display: block;
         font-size: 20px;
+        margin: auto;
+        position: sticky;
     }
 
     header a img {
@@ -14,19 +18,45 @@
     object-fit: contain;
     transition: none;
     }
-    
+
+    nav {
+        display: flex;
+        justify-content: center;
+    align-items: center;
+        width: 1500px;
+
+    }
+
     div.premierecolonne {
         font-size: xx-large;
     text-align: center;
-    height: 800px;
+    
 
     }
 
     div.deuxiemecolonne {
         font-size: xx-large;
         text-align: center;
-        height: 400px;
+        
     }
+
+
+    div.boxe, div.crossfit, div.basketball, div.finess, div.karate, div.muscu, div.running, div.yoga, div.natation, div.canoe, div.foot, div.motto {
+
+    
+        height: 610px;
+
+    }
+
+    footer {
+    margin-top: 100px;
+
+    }
+
+
+
+
+
 }
 
 /**@media screen and (max-width: 1200px)

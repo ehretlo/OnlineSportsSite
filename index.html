@@ -5,6 +5,7 @@
         <link rel="stylesheet" href="style/style.css">
         <link rel="stylesheet" href="style/styleresponsive.css">
         <link rel="icon" type="image.x-icon" href="../OnlineSportsSite/favicon/favicon1.png">
+        <script type="text/javascript" src="../OnlineSportsSite/style/main.js"></script>
         <title>Sport Addict | Le sport à tous les niveaux</title>
         
     </head>
@@ -16,7 +17,15 @@
                     <li><a href="#activite"> Idée d'activité</a></li>
                     <li><a href="#popu">Les plus populaires</a></li>
                     <li><a href="#events">Les événements à venir</a></li>
-                    <li>S'inscrire</li>
+                    <li><a href="#openModal">S'inscrire</a></li>
+                        <div id="openModal" class="modalDialog">
+                          <div>
+                            <a href="#close" title="Close" class="close">X</a>
+                            <h2>S'inscrire</h2>
+                            <p>Cette boîte modale est créée en utilisant les pouvoirs de CSS3.</p>
+                          </div>
+                          <a href="#close" title="Close" class="close">x</a>
+                        </div>
                 </ul>
                 <ul id="2" style=" width: 350px; padding-left: 170px;">
                     <img src="../OnlineSportsSite/images/images/search2.png">
@@ -82,20 +91,17 @@
         <div class="deuxiemecolonne">  
             <div class="running">     
             <img src="./images/populaire/running.jpg" alt="Running">
-            🏃🏻‍♂️La course à pied
-            <br>
+            <div class="titre">🏃🏻‍♂️La course à pied</div>
             Une paire de basket et à nous les grands espaces
             </div>
             <div class="yoga">
             <img src="./images/populaire/yoga.jpg" alt="Yoga">
-            🧘Le yoga
-            <br>
+            <div class="titre">🧘Le yoga</div>
             Calme, méditation et musculation interne 
             </div>
             <div class="natation">
             <img src="./images/populaire/natation.jpg" alt="Natation">
-            🏊🏻‍♂️La natation
-            <br>
+            <div class="titre">🏊🏻‍♂️La natation</div>
             Force et justesse du mouvement
             </div>
             <br>

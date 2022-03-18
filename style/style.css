@@ -105,18 +105,16 @@ nav ul li:hover {
 div.rechercher {
     text-align: center;
     font-family: 'Tommy';
-    background-image: url('../images/images/parc-bourran.jpg');
+    background-image: url('../images/images/fond.jpg');
     padding: 200px;
     height: 200px;
     font-size: 40px;
     padding-top: 150px;
     padding-bottom: 250px;
-    box-shadow: black 0px 0px 40px 0px;
+    box-shadow: black 0px 40px 40px 0px;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    
-
 }
 
 .underline {
@@ -128,7 +126,7 @@ div.rechercher {
 
 .green {
     color: green;
-    background-color: #D2D7DD;
+    
     border-radius: 10px;
 }
 
@@ -326,3 +324,58 @@ footer ul li a:hover {
     background: #A52520;
   }
 
+/* The Modal (background) -------------------------------------------------------------------------- */
+
+.modalDialog {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.1);
+    z-index: 99999;
+    opacity: 0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+  }
+  .modalDialog:target {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  .modalDialog > div {
+    width: 400px;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background-color: #D2D7DD;
+  }
+  .close {
+    background: #606061;
+    color: #ffffff;
+    line-height: 25px;
+    position: absolute;
+    right: -12px;
+    text-align: center;
+    top: -10px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    -moz-box-shadow: 1px 1px 3px #000;
+    -webkit-box-shadow: 1px 1px 3px #000;
+    box-shadow: 1px 1px 3px #000;
+  }
+  .close:hover {
+    background: #A52520;
+  }
+
+  h2 {
+      text-align: center;
+      text-decoration: underline #A52520;
+  }

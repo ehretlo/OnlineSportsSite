@@ -129,7 +129,7 @@ div.rechercher {
 .underline {
     text-decoration: underline;
     color: #A52520;
-    background-color: #D2D7DD;
+    background-color: white;
     border-radius: 10px;
 }
 
@@ -192,6 +192,9 @@ div.deuxiemecolonne {
     justify-content: space-between;
     text-align: center;
     
+    padding-left: 20px;
+
+    
 }
 
 div.deuxiemecolonne img:hover {
@@ -235,7 +238,7 @@ div.finess, div.karate, div.muscu {
 div.running, div.yoga, div.natation {
     box-shadow: black 0px 5px 20px 0px;
     width: 30%;
-    height: 300px;
+    height: 320px;
     margin: 10px;
     background-color: azure;
     border-radius: 20px;
@@ -262,11 +265,11 @@ div.canoe, div.foot, div.motto {
 
 div.enduro, div.Exhibition, div.Triathlon {
     width: 30%;
-    height: 300px;
     margin: 10px;
     box-shadow: black 0px 5px 20px 0px;
     background-color: azure;
     border-radius: 20px;
+    height: 351px;
 }
 
 div.enduro:hover, div.Exhibition:hover, div.Triathlon:hover, div.canoe:hover, div.motto:hover, div.foot:hover{
@@ -295,11 +298,37 @@ div.afficher {
     margin-top: 20px;
     font-family: 'Tommy';
     font-size: 25px;
+    color: #000;
+    text-decoration: none;
 }
 
 div.afficher:hover {
     color: #515AD0;
     text-decoration:underline #515AD0;
+}
+
+div.afficher a {
+    color: #000;
+    text-decoration: none;
+    transform: scale(1.02);
+    transition: 500ms;
+}
+
+div.afficher a:hover {
+    color:#A52520;
+    transition: 500ms;
+    transition-duration: 500ms;
+}
+
+div#toto {
+    text-align: center;
+}
+
+div#toto img {
+    
+    width: 300px;
+    height: 300px;
+    transform: none;
 }
 
 /*___________________________________________*/
@@ -320,6 +349,12 @@ footer {
 footer ul li a:hover {
     text-decoration: underline #FF3028;
     color: black;
+}
+
+.footertitre {
+    
+    padding-top: 10px;
+
 }
 
 
@@ -348,7 +383,7 @@ footer ul li a:hover {
 
 .modalDialog {
     position: fixed;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Tommy';
     top: 0;
     right: 0;
     bottom: 0;
@@ -417,4 +452,8 @@ footer ul li a:hover {
   h3:hover {
       color: blue;
       text-decoration: underline blue;
+  }
+
+  div#toto p {
+      font-family: 'Tommy';
   }

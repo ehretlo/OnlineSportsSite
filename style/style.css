@@ -86,7 +86,7 @@ nav ul {
     justify-content: space-evenly;
 }
 
-ul#2 {
+.ul#2 {
     width: 350px;
     padding-left: 170px;
 }
@@ -114,8 +114,7 @@ div.rechercher {
     text-align: center;
     font-family: 'Tommy';
     background-image: url('../images/images/fond.jpg');
-    padding: 200px;
-    height: 200px;
+    
     font-size: 40px;
     padding-top: 150px;
     padding-bottom: 250px;
@@ -216,7 +215,7 @@ div.boxe, div.crossfit, div.basketball {
 }
 
 div.boxe:hover, div.crossfit:hover, div.basketball:hover, div.finess:hover, div.karate:hover, div.muscu:hover{
-    transform: scale(1.02);
+    transform: scale(1.01);
     transition: 500ms;
     box-shadow: black 0px 5px 20px 0px;
     background-color: #D2D7DD;
@@ -275,7 +274,7 @@ div.enduro, div.Exhibition, div.Triathlon {
 div.enduro:hover, div.Exhibition:hover, div.Triathlon:hover, div.canoe:hover, div.motto:hover, div.foot:hover{
     transition: 500ms;
     transition-duration: 500ms;
-    transform: scale(1.02);
+    transform: scale(1.01);
     background-color: #D2D7DD;
 }
 

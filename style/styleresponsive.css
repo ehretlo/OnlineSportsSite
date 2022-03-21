@@ -4,7 +4,7 @@
         display: block;
         width: 1200px;
         margin: auto;
-        WIDTH: fit-content;
+        WIDTH: -webkit-fill-available;
     }
 
     header {
@@ -22,10 +22,9 @@
 
     nav {
         display: flex;
-        justify-content: center;
-    align-items: center;
-        width: 1500px;
+        width: 480px;
 
+        flex-direction: column;
     }
 
     div.premierecolonne {
@@ -35,12 +34,25 @@
 
     }
 
+    h1 {
+        padding-bottom: 20px;
+
+    }
+
     div.deuxiemecolonne {
         font-size: xx-large;
         text-align: center;
         
     }
 
+    nav ul li {
+        display: block;
+    }
+
+    nav.ul#2 {
+
+        padding-top: 20px;
+    }
 
     div.boxe, div.crossfit, div.basketball, div.finess, div.karate, div.muscu, div.running, div.yoga, div.natation, div.canoe, div.foot, div.motto {
 
@@ -54,6 +66,11 @@
 
     }
     
+    
+    nav ul {
+        display: block;
+        margin: auto;
+    }
 
 
 
